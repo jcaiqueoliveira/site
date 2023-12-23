@@ -1,0 +1,5 @@
+baseURL = 'https://josecaique.com'
+languageCode = 'en-us'
+title = 'Jose Caique'
+
+theme = "hugo-theme-ladder"
