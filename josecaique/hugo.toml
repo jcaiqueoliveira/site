@@ -1,0 +1,138 @@
+baseURL = "https://josecaique.com"
+languageCode = "en-us"
+title = "José Caique"
+homepage = "https://josecaique.com"
+defaultContentLanguage = "en"
+theme = "hugo-theme-ladder"
+license = "MIT"
+copyright = "2023 José Caique All rights reserved"
+paginate = 10
+
+[Author]
+  name = "José Caique"
+  email = "jcaique.jc@gmail.com"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 1
+
+[[menu.main]]
+  name = "Videos"
+  url = "/videos"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 3
+
+[params]
+  brand = "HOME"
+  avatarURL = "/images/logo.svg"
+  author = "José Caique"
+  authorDescription = "Product software engineer"
+  info = "A blog related to my daily routine as a software engineer"
+  favicon = "/favicon.png"
+
+[params.options]
+  showDarkMode = true
+  enableImgZooming = true
+  enableMultiLang = true
+  enableRobotsTXT = true
+  showMetaTags = false
+
+  darkModeTheme = "data-dark-mode"
+
+#  [params.sponsors]
+#    title = "Sponsors"
+#    description = "Support me by becoming a sponsor"
+#
+#    [params.sponsors.buymeaCoffee]
+#      enable = true
+#      url = "https://www.buymeacoffee.com/iguangzhengli"
+#      buttom_api = "https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=iguangzhengli&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff"
+#      qr = "https://storage.guangzhengli.com/images/buymeacoffee_sponsors.png"
+#
+#    [params.sponsors.wechat]
+#      enable = true
+#      qr = "https://storage.guangzhengli.com/images/alipay_sponsors.jpeg"
+#
+#    [params.sponsors.alipay]
+#      enable = true
+#      qr = "https://storage.guangzhengli.com/images/weixin_sponsors.jpeg"
+
+#  [params.comments]
+#    [params.comments.giscus]
+#      enable = true
+#      repo = "guangzhengli/hugo-ladder-exampleSite"
+#      repo_id = "R_kgDOHyVOjg"
+#      category = "Announcements"
+#      category_id = "DIC_kwDOHyVOjs4CQsH7"
+#      mapping = "pathname"
+#      position = "top"
+#      lang = "en"
+#
+#    [params.comments.utteranc]
+#      enable = false
+#      repo = "guangzhengli/blog-comments"
+#      issueTerm = "pathname"
+
+#  [params.analytics]
+#    [params.analytics.google]
+#      SiteVerificationTag = "xxx"
+#
+#    [params.analytics.umami]
+#      enable = true
+#      website_id = "2320eaa6-a90b-471c-b6ca-e79dadde8c4c"
+#      url = "https://umami-ochre-nu.vercel.app/hugo-ladder.js"
+#
+#  [params.guestbook]
+#    title = "Guestbook"
+#    description = "Leave a comment below. It could be anything –- question, appreciation, information, or even humor."
+
+ [[params.social]]
+    name = "GitHub"
+    pre = '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>'
+    url = 'https://github.com/jcaiqueoliveira'
+
+ [[params.social]]
+    name = "Email"
+    pre = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>'
+    url = 'mailto:jcaique.jc@gmail.com'
+
+ [[params.social]]
+    name = "Linkedin"
+    pre = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>'
+    url = 'https://www.linkedin.com/in/kandadev/'
+
+
+[languages]
+  [languages.en]
+    languageName = "en"
+
+  [languages.pt-br]
+    languageName = "pt-br"
+  
+  [languages.pt-br.params]
+    author = "José Caique"
+    authorDescription = "Product software engineer"
+    info = "Um blog sobre minha rotina como engenheiro de software"
+
+#    [languages.pt.guestbook]
+#      title = "留言板"
+#      description = "您的评论，会让该网站更精彩！"
+
+    [languages.pt-br.menu]
+      main = [
+        { name = "Postagens", url = "/blog", weight = 1 },
+        { name = "Vídeos", url = "/video", weight = 2 },
+        { name = "Sobre", url = "/about", weight = 3 },
+#        { name = "历史", url = "/archives", weight = 3 },
+#        { name = "留言板", url = "/guestbook", weight = 4 },
+#        { name = "统计", url = "https://umami-ochre-nu.vercel.app/share/o3zAba1V/guangzhengli", weight = 5 }
+      ]
+
+[taxonomies]
+  series = "series"
+  tag = "tags"

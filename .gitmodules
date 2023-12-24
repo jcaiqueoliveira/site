@@ -1,0 +1,8 @@
+[submodule "josecaique/josecaique.com"]
+	path = josecaique/josecaique.com
+	url = git@github.com:jcaiqueoliveira/josecaique.com.git
+	branch = main
+[submodule "josecaique/public"]
+	path = josecaique/public
+	url = git@github.com:jcaiqueoliveira/josecaique.com.git
+	branch = main
